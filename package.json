@@ -9,17 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "@effector/next": "^0.7.1",
+    "@gravity-ui/dynamic-forms": "^5.4.1",
+    "@gravity-ui/navigation": "^3.3.8",
+    "@gravity-ui/uikit": "^7.12.0",
+    "axios": "^1.9.0",
+    "cookies-next": "^6.0.0",
+    "effector": "^23.3.0",
+    "effector-react": "^23.3.0",
+    "json-server": "^1.0.0-beta.3",
+    "next": "15.3.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-toastify": "^11.0.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@gravity-ui/icons": "^2.13.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "typescript": "^5"
   }
 }

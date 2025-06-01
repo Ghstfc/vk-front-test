@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "name": "Maximus",
+      "surname": "Decimus",
+      "lastname": "Meridios",
+      "age": 1,
+      "height": 180,
+      "weight": 120,
+      "eyeColor": "blue",
+      "birthDate": "03.10.2001",
+      "passport": "4017-378762",
+      "email": "blalblabla@gmail.com",
+      "phoneNumber": "88005553535",
+      "nationality": "romanian",
+      "sex": "m",
+      "country": "Russia",
+      "city": "Moscow"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
