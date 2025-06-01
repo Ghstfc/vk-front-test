@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+
+ode 21.1.0
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+
+Then run db-server: 
+```bash
+npx json-server -p [PORT] db.json # [PORT] - port you want to run it on
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Комментарии
 
-## Learn More
+## UI
+Для UI была использована библиотека gravity-ui, удобная библиотека, имеет широкий функционал
 
-To learn more about Next.js, take a look at the following resources:
+## State-Manager
+Был выбран effector, популярен в последнии годы, работал с ним, имеет хорошую интеграцию с Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Next.js
+Был выбран так же потому что популярен, имел опыт работы с ним
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Что хотелось бы добавить (комментарии к задаче)
+- Кажется, что динамически менять количество колонок - плохая идея, поэтому количество колонок фиксированное.
+Колонки легко расширяемы за счет конфига
+- Возможно получше поработать с SSR
+- Убрать первоначальный флап
+- Получше настроить хранение данных
+- Возможно применить FSD
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## P.S.
+При любом исходе хочется получить комментарий о проделанной работе, хотя бы в виде ишью :))
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
